@@ -159,3 +159,65 @@ Source-Age: 0
 [2024-01-07 22:05:55,850: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2024-01-08 21:06:04,283: INFO: main: welcome to our custom logging]
+[2024-01-08 21:06:04,284: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-01-08 21:06:04,285: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-08 21:06:04,288: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-08 21:06:04,289: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-08 21:06:04,290: INFO: common: created directory at: artifacts]
+[2024-01-08 21:06:04,290: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-08 21:06:05,710: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 18F8:17E986:C5E6:10DEA:659C1664
+Accept-Ranges: bytes
+Date: Mon, 08 Jan 2024 15:36:05 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100027-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1704728166.571628,VS0,VE314
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5f2adf57363a2b238fd4e61440b997081c8da3e1
+Expires: Mon, 08 Jan 2024 15:41:05 GMT
+Source-Age: 0
+
+]
+[2024-01-08 21:06:05,716: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-01-08 21:21:01,951: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-08 21:21:01,953: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-08 21:21:01,957: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-08 21:21:01,957: INFO: common: created directory at: artifacts]
+[2024-01-08 21:21:01,958: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-08 21:39:54,139: INFO: main: welcome to our custom logging]
+[2024-01-08 21:39:54,139: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-01-08 21:39:54,141: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-08 21:39:54,141: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-08 21:39:54,144: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-08 21:39:54,144: INFO: common: created directory at: artifacts]
+[2024-01-08 21:39:54,144: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-08 21:39:54,145: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2024-01-08 21:39:54,146: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-01-08 21:39:54,146: INFO: main: >>>>>> stage Data Validation Stage started <<<<<<]
+[2024-01-08 21:39:54,147: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-08 21:39:54,148: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-08 21:39:54,149: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-08 21:39:54,150: INFO: common: created directory at: artifacts]
+[2024-01-08 21:39:54,150: INFO: common: created directory at: artifacts/data_validation]
+[2024-01-08 21:39:54,157: INFO: main: >>>>>> stage Data Validation Stage completed <<<<<<
+
+x==========x]
